@@ -1,7 +1,7 @@
 # Apanasevich Dzmirty #
 
-Email: dmirty.apan@yandex.by
-Tel: +375333788580
+- Email: dmirty.apan@yandex.by
+- Tel: +375333788580
 
 # Design engineer at Mechatronics. #
 Development of axle load sensors and weighing systems.
