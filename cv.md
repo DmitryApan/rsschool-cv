@@ -5,11 +5,10 @@ Tel: +375333788580
 
 # Design engineer at Mechatronics. #
 Development of axle load sensors and weighing systems.
-
 I like to learn new things, we teach quickly, I am diligent.
 
 # Programming languages #
-C, C#, JavaScript, HTML, CSS, GitHub, React, React-redux, scss
+C, C#, JavaScript, HTML, CSS, GitHub, React, React-redux, React-router, scss
 
 # Code Example #
 
