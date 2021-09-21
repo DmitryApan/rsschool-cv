@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Dzmitry Apanasevich</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>    
+    <main class="general-section">
+        <img class="avatar" src="avatar.jpg" alt="Avatar">
+        <h1>Apanasevich Dzmirty</h1>
+        <p>Email: dmirty.apan@yandex.by</p>
+        <p>Tel: +375333788580</p>
+        <h2>Design engineer at Mechatronics</h2>
+        <p>Development of axle load sensors and weighing systems. I like to learn new things, we teach quickly, I am diligent.</p>
+        <h2>Programming languages</h2>
+        <p>C, C#, JavaScript, HTML, CSS, GitHub, React, React-redux, React-router, scss</p>
+        <h2>Code Example</h2>
+        <pre><code>
+            function superStreetFighterSelection(fighters, position, moves) {
+                let fighterHeight = fighters.length;
+                let fighterWidth = fighters[0].length;
+                
+                return moves.map(move => {
+                  switch(move) {
+                      case "up":
+                        position[0]--;
+                      
+                        if (position[0] &lt; 0 || fighters[position[0]][position[1]] === "") {
+                          position[0]++;
+                        }
+                      break;
+                      
+                      case "down":
+                        position[0]++;
+                      
+                        if (position[0] === fighterHeight ||  fighters[position[0]][position[1]] === "") {
+                          position[0]--;
+                        }
+                      break;
+                      
+                      case "left": 
+                        do {
+                          position[1]--; 
+                          
+                          if (position[1] &lt; 0) {
+                            position[1] = fighterWidth - 1;
+                          }           
+                        } while (fighters[position[0]][position[1]] === "")  
+                      break;
+                      
+                      case "right":
+                        do {
+                          position[1]++; 
+                          
+                          if (position[1] === fighterWidth) {
+                            position[1] = 0;
+                          }           
+                        } while (fighters[position[0]][position[1]] === "") 
+                      break;
+                  }
+                  
+                  return fighters[position[0]][position[1]];
+                });
+              }
+        </code></pre>
+        <h2>Work Eperience</h2>
+        <p>Application development using react framework - 1year.</p>
+        <p>Projects being worked on:</p>
+        <ul>
+            <li>
+                <a href="http://task-manager-by-b.herokuapp.com">Task Manager</a>
+            </li>
+        </ul>
+        <h2>Education</h2>
+        <p>
+            <ul>
+                <li>Minsk Higher Rabiotechnical College, 2009-2013</li>
+                <li>Belarusian State University of Informatics and Radioelectronics, 2013-2017</li>
+            </ul>
+        </p>
+        <h2>English</h2>
+        <p>Level A2. Way stage or elementary.</p>
+    </main>
+    <footer class="footer-section">
+        <a href="https://github.com/DmitryApan/rsschool-cv">DzmityrApan</a>
+        <span>21.09.2021</span>
+        <span>
+            <a href="https://rs.school/js/">
+                <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="logo">
+            </a>
+        </span>
+    </footer>
+  </body>  
+</html>
